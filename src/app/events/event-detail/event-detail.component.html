@@ -1,0 +1,8 @@
+<li *ngIf="left >= 0" class="list-group-item">
+  <a href="{{ href }}">
+    <p class="event-name">{{ event.name }}</p>
+    <span class="pull-right event-left">{{ left}} min.</span>
+    <p class="event-sports-groups">{{ sportsGroups }}</p>
+    <p class="event-date">{{ startsString }}</p>
+  </a>
+</li>
