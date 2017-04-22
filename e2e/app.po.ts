@@ -1,6 +1,6 @@
 import { browser, element, by } from 'protractor';
 
-export class AngularBeefeePage {
+export class AngularWidgetPage {
   navigateTo() {
     return browser.get('/');
   }

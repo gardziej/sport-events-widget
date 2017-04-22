@@ -1,10 +1,10 @@
-import { AngularBeefeePage } from './app.po';
+import { AngularWidgetPage } from './app.po';
 
-describe('angular-beefee App', () => {
-  let page: AngularBeefeePage;
+describe('angular-widget App', () => {
+  let page: AngularWidgetPage;
 
   beforeEach(() => {
-    page = new AngularBeefeePage();
+    page = new AngularWidgetPage();
   });
 
   it('should display message saying app works', () => {

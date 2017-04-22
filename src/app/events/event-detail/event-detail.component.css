@@ -1,6 +1,6 @@
 li { background: #1C1C1C; border-bottom: 2px solid white; }
 li > a { color: white; display: block; }
 li > a > p.event-name { font-size: 20px; font-weight: bold; }
-li > a > span.event-left { font-size: 20px; font-weight: bold; }
+li > a > span.event-left { font-size: 20px; font-weight: bold; padding: auto 20px; color: yellow; }
 li:hover > a { text-decoration: none; }
 li:hover { text-decoration: none; background: #000 !important; }

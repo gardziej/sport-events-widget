@@ -17,7 +17,7 @@ export class EventService {
 
 
   fetchEvents() {
-    return this.http.get('http://gardziejewski.pl/projekty/lvbet/proxy.php')
+    return this.http.get('http://gardziejewski.pl/projekty/events-widget/proxy.php')
       .map(
         (response: Response) => {
           return response.json();
